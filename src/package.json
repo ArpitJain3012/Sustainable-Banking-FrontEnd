@@ -1,0 +1,58 @@
+{
+  "name": "abc-bank",
+  "version": "0.1.0",
+  "main": "/abc/",
+  "proxy": "http://localhost:8080",
+  "homepage": "/abc/",
+  "private": true,
+  "dependencies": {
+    "axios": "^1.6.0",
+    "bootstrap": "^5.3.2",
+    "font-awesome": "^4.7.0",
+    "highcharts": "^11.2.0",
+    "highcharts-react-official": "^3.2.1",
+    "popper.js": "^1.16.1",
+    "react": "^18.2.0",
+    "react-bootstrap": "^2.8.0",
+    "react-dom": "^18.2.0",
+    "react-icons": "^4.11.0",
+    "react-redux": "8.1.2",
+    "react-router-dom": "^6.15.0",
+    "react-scripts": "^5.0.1",
+    "reactstrap": "^9.2.0",
+    "redux": "4.2.1",
+    "redux-thunk": "^2.4.2",
+    "sass": "1.68.0",
+    "web-vitals": "^2.1.4"
+  },
+  "devDependencies": {
+    "@testing-library/jest-dom": "^5.17.0",
+    "@testing-library/react": "^13.4.0",
+    "@testing-library/user-event": "^13.5.0",
+    "sass": "^1.68.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
