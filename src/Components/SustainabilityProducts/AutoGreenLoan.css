@@ -1,0 +1,34 @@
+.basic{
+    height: 100%;
+    display: flex;
+    background-color: #1B2520;
+    color: #FFFFFF;
+    align-items: flex-start;
+    flex-direction: column;
+    }
+    .basic1{
+        padding-left: 6%;
+    }
+    .basic2{
+        width: 83%;
+        color: #C9C9C9;
+    }
+    .basic3{
+        font-size: 27px;
+        color: #FFFFFF;
+        border-radius: 16px;
+        width: 164%;
+        height: 66px;
+        background-color: #88C53C;
+    }
+    .box1{
+        
+        border-radius: 16px;
+        height: 300px;
+        width: 350px;
+        background-color: #2A312D;
+    }
+    .allbox{
+        display: flex;
+    flex-wrap: wrap;
+    }

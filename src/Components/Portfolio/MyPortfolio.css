@@ -1,0 +1,64 @@
+.portfolio-container{
+    background-color: black;
+   color: #FFFFFF;
+   margin-left: 10px;
+   height: 100%;
+}
+.portfolio-heading{
+   font-size: 20px;
+}
+.underline{
+   height: 2px;
+   width: 45px;
+   background-color: #14DDCB;
+   padding-top: 0px;
+   margin-top: 0px;
+}
+.portfolioCard{
+   background-color: #2A312D;
+   color: #FFFFFF;
+   display: flex;
+   height: 60px;
+   border-radius: 10px;
+   margin: 15px 0px;
+   padding: 0px 10px;
+   position: relative;
+}
+
+.portfolioCard h1 {
+   margin: 0px;
+   font-size: 15px;
+}
+
+.card-icon {
+   margin: 5px 0px;
+   padding: 2px;
+}
+.card-logo {
+   height: 45px;
+   width: 45px;
+   border-radius: 50%;
+}
+.companyname{
+   color: #FFFFFF;
+   font-size: 16px;
+}
+.amountinvested{
+   color:#C9C9C9;
+   font-size: 12px;
+}
+.stockup p {
+   color: #89da10;
+   padding: 10px 5px;
+   position: absolute;
+   right: 2%;
+   font-size: 24px;
+}
+.stockdown p {
+   color:#E65757 ;
+   padding: 10px 5px;
+   position: absolute;
+   right: 2%;
+   font-size: 24px;
+}
+

@@ -1,0 +1,82 @@
+.quickPayCard {
+    margin: 20px;
+    background: #263736;
+    border-radius: 10px;
+}
+.pay-box {
+    background: #14DDCB;
+    height: 50px;
+    display: flex;
+    border-radius: 10px;
+}
+.wallet-box{
+    padding: 8px 10px 5px 20px;
+}
+.Icon {
+    width: 35px;
+}
+.arrowIcon {
+    background: #14DDCB;
+    border-radius: 17px;
+}
+.arrow-box {
+    margin-left: auto;
+    margin-right: 5px;
+    padding: 8px;
+}
+.left-arrow-box {
+    margin-left: auto;
+    margin-top: 10px;
+    padding: 8px;
+}
+.paymentDetails {
+    margin: 20px;
+}
+.card-body {
+    display: flex;
+}
+.card {
+    width: 60px;
+    text-align: center;
+    margin-right: 5px;
+}
+.card p {
+    margin: 0px;
+    font: normal normal normal 10px/14px Open Sans;
+}
+.card-img-top {
+    width: 55px;
+    height: 55px;
+    border-radius: 10px;
+}
+.input-label {
+    display: block;
+    margin: 10px 5px 5px 5px;
+}
+input {
+    height: 40px;
+    width: -webkit-fill-available;
+    padding: 0px 10px 0px 10px;
+    background: #414342;
+    border-style: none;
+    border-radius: 5px;
+}
+input[type="submit" ] {
+    background: #14DDCB;
+    margin: 30px 0px 20px 0px;
+    color: white;
+}
+.img-position {
+    background-repeat: no-repeat;
+    background-position: right;
+    background-position-x: 98%;
+}
+.arrow {
+    background-image: url(../../Images/arrow.svg);
+}
+.searchIcon {
+    background-image: url(../../Images/search.svg);
+}
+.calendarIcon {
+    background-image: url(../../Images/calendar.svg);
+}

@@ -1,0 +1,152 @@
+.MarketPlace {
+    background: #1B2520;
+    padding: 20px;
+}
+.header {
+    display: flex;
+}
+
+.header h1{
+    color: #FFFF;
+}
+.header div{
+   margin-left: auto;
+   font-size: 25px;
+}
+.heart{
+   margin: 0px 5px;
+}
+.search-box {
+    margin-top: 15px;
+    display: flex;
+}
+.search {
+    background-image: url(../../Images/psearch.svg);
+    background-repeat: no-repeat;
+    background-position: 15px;
+    background-size: 18px;
+    padding: 0px 45px;
+    height: 50px;
+    width: 95%;
+    font-size: 16px;
+}
+.search-result {
+    background: white;
+    width: 92%;
+    margin: 0px 2px;
+}
+.search-result ul li {
+    list-style: none;
+    padding: 5px 0px;
+    cursor: pointer;
+}
+.search-result ul li:hover {
+    background: #e9f3ff;
+}
+.filterIcon {
+    margin: auto;
+    width: 25px;
+    cursor: pointer;
+}
+.filterOption {
+    /* overflow: auto; */
+    white-space: nowrap;
+    margin-top: 15px;
+}
+.btn {
+    margin-right: 10px;
+    min-width: 60px;
+    height: 40px;
+    background: #414342 !important;
+    border-style: none;
+    border-radius: 5px;
+    color: white !important;
+    cursor: pointer;
+}
+
+.btn .active {
+    background-color: #88C53C;
+}
+
+.ads {
+    background-color: white;
+    height: fit-content;
+    border-radius: 12px;
+    margin: 20px 0px;
+    padding: 15px;
+    display: flex;
+}
+.ads-body {
+    width: 70%;
+    display: grid;
+}
+
+.ads-title{
+    color: #88C53C;
+}
+.ads-title1{
+    color: black;
+    font-weight: bold;
+    font-size: larger;
+}
+
+.buttons{
+    display: flex;
+    margin: 20px 0px;
+}
+
+.buttons span{
+    color: black;
+    margin: 0px 10px;
+}
+.ads-img {
+    width: 30%;
+}
+.ads-body span {
+    margin-left: 0px;
+}
+.productName {
+    color: white;
+    width: 70%;
+    margin: 0px;
+}
+.productAmount {
+    width: 30%;
+    margin-left: 10px;
+    color: #88C53C;
+}
+.buy-btn {
+    width: 80px;
+    height: 30px;
+    background: #88C53C;
+    border-style: none;
+    border-radius: 5px;
+    color: white;
+}
+.phone-img {
+    width: 100px;
+}
+/* .product-container {
+    text-align: center;
+} */
+.green-product-card {
+    width: 44%;
+    display: inline-block;
+    margin: 10px;
+    font-size: small;
+    background: #2A312D;
+    height: 210px;
+    border-radius: 10px;
+}
+.image{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+.card-img {
+    height: 70%;
+}
+.card-body {
+    margin: 5px 10px;
+    display: flex;
+}

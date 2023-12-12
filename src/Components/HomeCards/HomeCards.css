@@ -1,0 +1,59 @@
+.homecard-body{
+    width: 20.875rem;
+    height: 8.25rem;
+    border-radius: 0.75rem;
+    position:relative;
+    text-align: left;
+    margin: auto;
+  }
+  
+  .homecard-img{
+    width: 20.875rem;
+    height: 8.25rem;
+    border-radius: 0.75rem;
+    object-fit: cover;
+  }
+  
+  .homecard-body::before{
+    content: " ";
+    width: 20.875rem;
+    height: 8.25rem;
+    border-radius: 0.75rem;
+    background-image: linear-gradient(to right,rgba(20, 221, 203, 0.77), rgba(255, 255, 255, 0));
+    position:absolute;
+    
+  }
+  
+  .card-home{
+    padding: 1%;
+  }
+  
+  .homecard-title{
+    position: absolute;
+    top: 8px;
+    left: 16px;
+    color: white;
+  }
+  
+  .wrapper{
+  text-align: left;
+  width: 20.875rem;
+  margin: auto;
+  }
+  
+  .underline{
+    display:inline-block;
+    position:relative;
+    color: white;
+  }
+  
+  .underline::after{
+    content:'';
+    height:0.1875rem;
+    width:30%;
+    background:#14DDCB;
+    position:absolute;
+    left:0%;
+    border-radius: 0.185rem;
+    bottom:-5px;  
+  }

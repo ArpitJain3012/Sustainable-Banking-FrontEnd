@@ -1,0 +1,58 @@
+.transaction-container{
+    padding: 10px 20px;
+}
+.tranacationCard {
+    background-color: #2A312D;
+    color: #FFFFFF;
+    display: flex;
+    height: auto;
+    border-radius: 10px;
+    margin: 15px 0px;
+    padding: 0px 10px;
+}
+.tranacationCard h1 {
+    margin: 0px;
+    font-size: 15px;
+}
+.tranacation-details{
+    margin: 10px;
+}
+.icon {
+    margin: 5px 0px;
+    padding: 2px;
+}
+.logo {
+    height: 45px;
+    width: 45px;
+    border-radius: 50%;
+    background: white;
+}
+.amountCard {
+    margin-left: auto;
+    padding: 10px 0px;
+}
+.transaction-amount{
+    margin-left: 40%;
+    color:#88C53C ;
+}
+.transaction-amount-red{
+    margin-left: 40%;
+    color:#E65757 ;
+}
+.tranacation-container{
+    background-color: black;
+}
+.dollar-amount{
+    display: inline-flex;
+    color: #88C53C ;;
+}
+.dollar-amount-none{
+    display: none;
+}
+.transaction-time{
+    font-size: 10px;
+    color: #D5D5D5;
+    padding-top: 10px;
+    margin-right: 5px;
+}
+  

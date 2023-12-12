@@ -1,0 +1,25 @@
+.home {
+    background-color: #000000;
+    color: white;
+}
+
+.toggle-wrapper{
+    display: inline-flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.toggle-button{
+    background: none;
+    border: none;
+}
+
+.nav-transaction{
+   text-decoration: none;
+   color: #02A899 ;
+   float: right;
+   padding: 2px;
+}
+.recent-transactions{
+   background-color: #011615;
+}

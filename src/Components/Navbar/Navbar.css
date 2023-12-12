@@ -1,0 +1,122 @@
+.nav{
+  background-color: black;
+ }
+ .nav-text{
+display: flex;
+justify-content: start;
+align-items: center;
+padding: 8px 0px 8px 16px;
+list-style: none;
+height:33px ;
+ }
+ span{
+  margin-left: 16px;
+ }
+ .nav-text a{
+  text-decoration: none;
+  color: rgb(137, 218, 16);
+  font-size: 14px;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  padding: 0 16px;
+  border-radius: 4px;
+ }
+  .nav-menu{
+  background-color: black;
+  width: 250px;
+  display: flex;
+  justify-content: center;
+  font-size: 14px;
+  max-height: 100%;
+  height: 1000px;
+  position: fixed;
+  top:0;
+  left:-100%;
+  transition: 850ms;
+ 
+ }
+ .nav-menu.active{
+  background-color: black;
+  left:0;
+  transition: 350ms;
+  position: absolute;
+  z-index: 1;
+ }
+.img-face{
+  max-width: 159px;
+}
+ .navimg{
+  width: 46px;
+ }
+ .container-fluid{
+    background-color: black;
+  }
+  
+  .navbar-toggler-icon {
+   background-color:  rgb(137, 218, 16);
+   border-radius: 4px;
+  }
+
+  .navbar-brands{
+    color: white;
+    text-decoration: none;
+  }
+
+  .navbar-brands i{
+    color: rgb(137, 218, 16);
+    text-decoration: none;
+  }
+
+  #navContent a{
+    color:  rgb(137, 218, 16);
+  }
+  
+  .navbar-toggler-cross{
+    color:  rgb(137, 218, 16);
+    background-color: black;
+    display: none;
+  }
+
+  .bts{
+    display: none;
+  }
+  .head{
+    display: none;
+   
+  }
+  
+  @media (max-width:750px){
+    .img-face{
+      max-width: 209px;
+    }
+    .nav-menu{
+      background-color: black;
+      margin-right: 10px;
+     }
+    .navbar-toggler-cross{
+      color:  rgb(137, 218, 16);
+      background-color: black;
+      display: block;
+    }
+    .desktop{
+      display: none;
+    }
+
+   .head{
+     display: inline-block;
+     width: 85%;
+  }
+  .bts{
+     color:rgb(137, 218, 16);
+    float: right;
+  }
+  .mobile{
+    float: left;
+  }
+  
+    
+  }
+  /* added for more css changes */
+  

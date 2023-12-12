@@ -1,0 +1,15 @@
+.drop-down-button{
+    background-color: #2A312D;
+    color:#ffff;
+    width: 100%;
+    border-radius: 5px;
+}
+.row {
+    padding: 10px 20px;
+}
+.container-box {
+    padding: 0px;
+}
+.dropdown-item:hover{
+    background-color: #545b57;
+}

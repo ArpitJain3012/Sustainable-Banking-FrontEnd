@@ -1,0 +1,13 @@
+.portfolio{
+    background-color: black;
+    height: 100%;
+}
+.portfolio-heading{
+    color: white;
+    font-size: 20px;
+}
+.underline{
+    height: 2px;
+    width: 45px;
+    background-color: #14DDCB;
+ }

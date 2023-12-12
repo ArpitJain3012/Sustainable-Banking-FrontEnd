@@ -1,0 +1,48 @@
+.cardsList{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.cards{
+    padding: 1%;
+    width: 50%;
+}
+
+.headingText{
+    padding: 1%;
+}
+
+.heading{
+    display:inline-block;
+    position:relative;
+    color: white;
+  }
+
+  .heading-secondary{
+    display:inline-block;
+    position:relative;
+    color: #C9C9C9;
+  }
+  
+  .heading::after{
+    content:'';
+    height:0.1875rem;
+    width:30%;
+    background:#14DDCB;
+    position:absolute;
+    left:0%;
+    border-radius: 0.185rem;
+    bottom:-5px;  
+  }
+
+  .heading-secondary::after{
+    content:'';
+    height:0.1875rem;
+    width:30%;
+    background:#14DDCB;
+    position:absolute;
+    left:0%;
+    border-radius: 0.185rem;
+    bottom:-5px;  
+  }
